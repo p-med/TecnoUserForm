@@ -24,7 +24,6 @@ Private Sub btn_Guardar_MouseDown(ByVal Button As Integer, ByVal Shift As Intege
 'Definicion de variables
 Dim ws As Worksheet
 Dim wbLocal As Workbook
-Dim wbMaster As Workbook
 Dim addnew As Range
 Dim f As Range
 Dim r As Range
@@ -32,7 +31,6 @@ Dim tbl As ListObject, tRow As ListRow, tCol As ListColumn
 
 'Definicion de elementos
 Set wbLocal = ThisWorkbook
-'Set wbMaster = Workbooks.Open("C:\Users\rosem\OneDrive - Smithsonian Institution\Documents\Cae\Avances_Paracel.xlsx")
 Set ws = wbLocal.Worksheets("Datos")
 Set tbl = ws.ListObjects("Data")
 'ListObjects ("Data")
